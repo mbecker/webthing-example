@@ -17,7 +17,7 @@ $ npm intsall
 
 1.) Start the webthing server either via node or npm script in a terminal as follows
 ```
-$ node index.js
+$ node --trace-warnings index.js
 OR
 $ npm run server
 ```

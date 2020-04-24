@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "client": "./node_modules/.bin/http-server -a localhost -p 8080 -c-1 ./wsclient",
-    "server": "node index.js"
+    "server": "node --trace-warnings index.js"
   },
   "author": "",
   "license": "ISC",
