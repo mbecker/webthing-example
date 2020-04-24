@@ -22,12 +22,12 @@ OR
 $ npm run server
 ```
 
-2.) Start the http-server which servers the client via [http://localhost:8888](http://localhost:8888) in another terminal as follows
+2.) Start the http-server which servers the client via [http://localhost:8080](http://localhost:8080) in another terminal as follows
 ```
 $  npm run client
 ```
 
-3.) Open the browser at [http://localhost:8888](http://localhost:8888)
+3.) Open the browser at [http://localhost:8080](http://localhost:8080)
 
 4.) Terminate the terminal from (1) with "ctrl+c"
 
