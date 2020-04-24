@@ -1,5 +1,7 @@
 # Mozilla IOT Webthing Client example
 
+> (https://github.com/mozilla-iot/webthing-node)[https://github.com/mozilla-iot/webthing-node]
+
 This example demonstrates the connection of a websocket (ws) client to the "webthing"-server. The "webthing"-server has a websocket channel for each "thing". If a websocket subscribes to the "thing" it get's notified by a change of a "thing`s" property.
 
 But if just one websocket connected to a "thing" and you terminate the node process with "ctrl+c" the the following error occurs:
