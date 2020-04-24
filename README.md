@@ -10,27 +10,27 @@ But if just one websocket connected to a "thing" and you terminate the node proc
 
 The process is as follows:
 
-0.) Install the npm dependencies as follows
+0. Install the npm dependencies as follows
 ```sh
 $ npm intsall
 ```
 
-1.) Start the webthing server either via node or npm script in a terminal as follows
+1. Start the webthing server either via node or npm script in a terminal as follows
 ```
 $ node --trace-warnings index.js
 OR
 $ npm run server
 ```
 
-2.) Start the http-server which servers the client via [http://localhost:8080](http://localhost:8080) in another terminal as follows
+2. Start the http-server which servers the client via [http://localhost:8080](http://localhost:8080) in another terminal as follows
 ```
 $  npm run client
 ```
 
-3.) Open the browser at [http://localhost:8080](http://localhost:8080)
+3. Open the browser at [http://localhost:8080](http://localhost:8080)
 
-4.) Terminate the terminal from (1) with "ctrl+c"
+4. Terminate the terminal from (1) with "ctrl+c"
 
-5.) See the error after some seconds
+5. See the error after some seconds
 
-6.) Close the browser (or tab) from (3) an the node process from (1) ends
+6. Close the browser (or tab) from (3) an the node process from (1) ends
