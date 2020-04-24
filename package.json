@@ -1,0 +1,18 @@
+{
+  "name": "webthing-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "./node_modules/.bin/http-server -a localhost -p 8080 -c-1 ./wsclient",
+    "server": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "0.12.1",
+    "uuid": "7.0.3",
+    "webthing": "0.12.1"
+  },
+  "devDependencies": {}
+}
